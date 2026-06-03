@@ -1,0 +1,12 @@
+## Esto eso un tipo de comentario
+
+""" Esto es otro tipo de comentario, donde se puede comentariar todo lo
+este entre las comillas"""
+
+## Variables
+a = 10
+b = 2
+
+## Interaccion entre variables
+
+print(f"Suma 10 +2  {a + b}")
