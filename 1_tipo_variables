@@ -9,4 +9,10 @@ b = 2
 
 ## Interaccion entre variables
 
-print(f"Suma 10 +2  {a + b}")
+print(f"Suma 10 + 2 = {a + b}")
+print(f"resta 10 - 2 = {a - b}")
+print(f"Multiplicacion 10 * 2 = {a * b}")
+print(f"Division 10 / 2 = {a / b}")
+print(f"Modulo 10 % 2 = {a%b}")
+print(f"Division exacta 10 // b = {a // b}")
+print(f"Potencia 10 ** 2 = {a ** b}")
