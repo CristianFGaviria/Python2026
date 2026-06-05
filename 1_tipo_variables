@@ -5,7 +5,7 @@ este entre las comillas"""
 
 ## Variables
 a = 10
-b = 2
+b = 3
 
 ## Interaccion entre Operadores
 
@@ -30,5 +30,54 @@ print(f"Mayor o igual que 10 >= 2 {a >= b}")
 ## operadores logicos
 
 print("############## OPERADORES LOGICOS ##############")
-print(f"Operador logico AND 10 <= 2 AND 2 >= 10 = {a <= b and b >= a}")
+print(f"Operador logico AND 10 + 2 = 12 AND 2 - 10 = - 8 = {10 + 2 == 12 and 2 - 10 == -8}")
 print(f"Operador logico OR 10 > 2 or 10 < 2 = {a < b or a > b}")
+print(f"NOT: 10 + 3 == 14 {not 10 + 2 == 14}")
+
+## Operadores de asignacion
+
+print("############## OPERADORES DE ASIGNACION ##############")
+
+my_number = 11 
+print(my_number)
+my_number += 1 
+print(my_number)
+my_number -= 1 
+print(my_number)
+my_number *= 2 
+print(my_number)
+my_number /= 2 
+print(my_number)
+my_number **= 2 
+print(my_number)
+my_number %= 2 
+print(my_number)
+my_number //= 1 
+print(my_number)
+
+#OPERADORES DE IDENTIDAD 
+
+print("############## OPERADORES DE IDENTIDAD ##############")
+
+my_new_number = my_number
+print(f"my_number is my_new_number es = {my_number is my_new_number}")
+print(f"my_number is not my_new_number es = {my_number is not my_new_number}")
+
+## OPERADORES DE PETENECIA
+
+print("############## OPERADORES DE PETENECIA ##############")
+print(f"u in moure = {'u' in 'moure'}")
+print(f"b in moure = {'b' not in 'moure'}")
+
+## OPERADORES DE BIT
+
+print("############## OPERADORES DE BIT ##############")
+
+print(f"and 10 & 3 = {a & b}")
+print(f"or 10 & 3 = {a | b}")
+print(f"xor 10 ^ 3 = {a ^ b}")
+print(f"not ~10 = {~a}")
+print(f"desplazamiento a la derecha: 10 >> 2 = {10 >> 2}")
+print(f"desplazamiento a la izquierda 10 << 2 = {10 << 2}")
+
+
