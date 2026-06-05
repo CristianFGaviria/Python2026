@@ -9,6 +9,7 @@ b = 2
 
 ## Interaccion entre Operadores
 
+print("############## OPERADORES MATEMATICOS ##############")
 print(f"Suma 10 + 2 = {a + b}")
 print(f"resta 10 - 2 = {a - b}")
 print(f"Multiplicacion 10 * 2 = {a * b}")
@@ -18,8 +19,8 @@ print(f"Division exacta 10 // b = {a // b}")
 print(f"Potencia 10 ** 2 = {a ** b}")
 
 ## operaodores de comparacion
-
-print(f"igualdad ")
+print("############## OPERADORES DE COMPARACION ##############")
+print(f"igualdad 10 == 2 {a == b}")
 print(f"Diferebcia 10 != 2 ={a != b}")
 print(f"Menor que 10 < 2 = {a < b}")
 print(f"Mayor que 10 > 2 = {a > b}")
@@ -28,5 +29,6 @@ print(f"Mayor o igual que 10 >= 2 {a >= b}")
 
 ## operadores logicos
 
+print("############## OPERADORES LOGICOS ##############")
 print(f"Operador logico AND 10 <= 2 AND 2 >= 10 = {a <= b and b >= a}")
 print(f"Operador logico OR 10 > 2 or 10 < 2 = {a < b or a > b}")
