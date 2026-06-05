@@ -7,12 +7,26 @@ este entre las comillas"""
 a = 10
 b = 2
 
-## Interaccion entre variables
+## Interaccion entre Operadores
 
 print(f"Suma 10 + 2 = {a + b}")
 print(f"resta 10 - 2 = {a - b}")
 print(f"Multiplicacion 10 * 2 = {a * b}")
 print(f"Division 10 / 2 = {a / b}")
-print(f"Modulo 10 % 2 = {a%b}")
+print(f"Modulo 10 % 2 = {a % b}")
 print(f"Division exacta 10 // b = {a // b}")
 print(f"Potencia 10 ** 2 = {a ** b}")
+
+## operaodores de comparacion
+
+print(f"igualdad ")
+print(f"Diferebcia 10 != 2 ={a != b}")
+print(f"Menor que 10 < 2 = {a < b}")
+print(f"Mayor que 10 > 2 = {a > b}")
+print(f"Menor o igual que 10 <= 2 {a <= b}")
+print(f"Mayor o igual que 10 >= 2 {a >= b}")
+
+## operadores logicos
+
+print(f"Operador logico AND 10 <= 2 AND 2 >= 10 = {a <= b and b >= a}")
+print(f"Operador logico OR 10 > 2 or 10 < 2 = {a < b or a > b}")
